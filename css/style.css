@@ -24,11 +24,26 @@
 #calculadora{
   font-size: 22px;
   font-family: "Lato";
+  padding: 40px;
   background-color: #FFEEDB;
 
 }
 
 #explicação{
-  font-size: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+
+#imagemAna:hover{
+  transform: scale(1.3);
+}
+#imagemCatia:hover{
+  transform: scale(1.3);
+}
+#imagemPedro:hover{
+  transform: scale(1.3);
+}
+#texto{
   text-align: center;
 }
