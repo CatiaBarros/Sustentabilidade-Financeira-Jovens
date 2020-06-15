@@ -1,0 +1,22 @@
+#intro {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Lato";
+  font-size: 22px;
+  background-image: url("../img/paginainicial.gif");
+  -webkit-background-size: cover, fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#text-intro {
+  padding-top: 22%;
+  text-align: center;
+  color: white;
+}
+
+.autores_img {
+  width: 100%;
+}
