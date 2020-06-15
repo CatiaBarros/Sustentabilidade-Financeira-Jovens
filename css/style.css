@@ -20,3 +20,15 @@
 .autores_img {
   width: 100%;
 }
+
+#calculadora{
+  font-size: 22px;
+  font-family: "Lato";
+  background-color: #FFEEDB;
+
+}
+
+#explicação{
+  font-size: 10px;
+  text-align: center;
+}
