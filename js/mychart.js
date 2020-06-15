@@ -37,3 +37,35 @@ new Chart(document.getElementById("line-chart"), {
   },
 });
 
+new Chart(document.getElementById("bar-chart"), {
+  type: "bar",
+  data: {
+    labels: ['Alemanha', 'França','Espanha', 'Itália', 'Países Baixos', 'Áustria', 'Polónia',
+    'Suécia','Grécia', 'Portugal', 'República Checa', 'Croácia', 'Bélgica', 'Hungria', 'Roménia',
+    'Finlándia', 'Dinamarca', 'Bulgária', 'Eslóvaquia', 'Lituânia','Estónia', 'Chipre','Malta', 'Luxembrugo'],
+    datasets: [
+      {
+        data: [179242169, 171475894, 130803657, 128100932,43912615,40093480,33895930,
+        30736850, 28718094,25866422,21247150,18648937, 17559915,13116056,],
+        label: "2019",
+        borderColor: "#ED9B40",
+        fill: false,
+      },
+     
+    ],
+  },
+  options: {
+    maintainAspectRatio: false,
+    title: {
+      display: true,
+      text: "Número de pessoas em lay-off",
+    },
+    legend: {
+      display: true,
+      labels: {
+               
+            }
+   
+    }
+  },
+});
