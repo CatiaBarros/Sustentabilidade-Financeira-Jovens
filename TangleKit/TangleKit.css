@@ -44,7 +44,12 @@
 
 .TKAdjustableNumberHelp {
 	position:absolute;
-	color: #00f;
+	color: black;
 	font: 9px "Lato", "Arial", sans-serif;
 }
 
+.resultado {
+	color: white;
+	background-color: #BA3B46;
+	padding: 4px;
+}
