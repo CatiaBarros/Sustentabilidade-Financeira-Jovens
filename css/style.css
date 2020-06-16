@@ -17,6 +17,11 @@
   color: white;
 }
 
+#legenda{
+  text-align: center;
+  font-size: 12px;
+}
+
 .autores_img {
   width: 100%;
 }
