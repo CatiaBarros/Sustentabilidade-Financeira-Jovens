@@ -11,12 +11,16 @@ new Chart(document.getElementById("line-chart"), {
         label: "2019",
         borderColor: "#ED9B40",
         fill: false,
+        backgroundColor: "#ED9B40",
+        
       },
       {
         data: [940,1629,1065,3081],
         label: "2020",
         borderColor: "#4ACC82",
         fill: false,
+        backgroundColor: "#4ACC82",
+        
 
       },
     ],
@@ -29,6 +33,7 @@ new Chart(document.getElementById("line-chart"), {
     },
     legend: {
       display: true,
+      position:'bottom',
       labels: {
                
             }
@@ -66,6 +71,7 @@ new Chart(document.getElementById("bar-chart"), {
     },
     legend: {
       display: true,
+      position:'bottom',
       labels: {
                
             }
