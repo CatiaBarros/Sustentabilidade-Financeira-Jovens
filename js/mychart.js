@@ -162,3 +162,70 @@ new Chart(document.getElementById("bar-chart"), {
     },
   },
 });
+
+new Chart(document.getElementById("bar2-chart"), {
+  type: "bar",
+  data: {
+    labels: [
+      "Janeiro",
+      "Fevereiro",
+      "Março",
+      "Abril",
+      "Maio",
+      "Junho",
+      "Julho",
+      "Agosto",
+      "Setembro",
+      "Outubro",
+      "Novembro",
+      "Dezembro",
+    ],
+    datasets: [
+      {
+        data: [
+          1266569,
+        1384281,
+        1851804,
+        2315302,
+        2591650,
+        2721267,
+        2829319,
+        3310953,
+        2876341,
+        2500312,
+        1754086,
+        1572013,
+        ],
+        label: "2019",
+        borderColor: "#ED9B40",
+        fill: false,
+        backgroundColor: "#ED9B40",
+      },
+      {
+        data: [
+        1418459,
+        1594530,
+        692691,
+        60103,
+        ],
+        label: "2020",
+        borderColor: "#4ACC82",
+        fill: false,
+        backgroundColor: "#4ACC82",
+      },
+    ],
+  },
+  options: {
+    maintainAspectRatio: false,
+    title: {
+      display: false,
+      text: "Número de pessoas em lay-off",
+    },
+    legend: {
+      display: true,
+      position: "bottom",
+      labels: {},
+    },
+  },
+});
+
