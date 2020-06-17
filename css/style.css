@@ -4,11 +4,39 @@
   background-color: black;
   font-family: "Lato";
   font-size: 22px;
-  background-image: url("../img/paginainicial.gif");
+  background-image: url("../img/PPJ2.jpg");
+  /* background-image: url("../img/paginainicial.gif"); */
   -webkit-background-size: cover, fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#intro h1 {
+  text-shadow: black 0px 0px 10px;
+  font-size: 4rem;
+}
+
+.subheading {
+  font-size: 2.5rem;
+}
+
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+}
+
+.lead {
+  font-size: 1.6rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 30px;
 }
 
 #text-intro {
@@ -17,44 +45,59 @@
   color: white;
 }
 
-#legenda{
+.legenda {
+  text-align: center !important;
+  font-size: 1rem;
+  font-family: "Lato";
+}
+
+.embed {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.chart-title {
   text-align: center;
-  font-size: 12px;
+}
+
+.chart-source {
+  font-size: 0.7rem;
+  font-family: "Lato";
+  text-align: right;
 }
 
 .autores_img {
   width: 100%;
 }
 
-#calculadora{
+#calculadora {
   font-size: 22px;
   font-family: "Lato";
   padding: 40px;
-  background-color: #FFEEDB;
-
+  background-color: #ffeedb;
 }
 
-#explicação{
-  font-size: 11px;
+#explicação {
+  font-family: "Lato";
+  font-size: 1rem;
   text-align: center;
 }
 
-
-#imagemAna:hover{
+#imagemAna:hover {
   transform: scale(1.3);
 }
-#imagemCatia:hover{
+#imagemCatia:hover {
   transform: scale(1.3);
 }
-#imagemPedro:hover{
+#imagemPedro:hover {
   transform: scale(1.3);
 }
-#texto{
+#texto {
   text-align: center;
 }
-a{
-  color: #4ACC82;
+a {
+  color: #4acc82;
 }
-a:hover{
+a:hover {
   color: #338e5b;
 }
