@@ -1,141 +1,153 @@
 #intro {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    font-family: "Lato";
-    font-size: 22px;
-    background-image: url("../img/PPJ2.jpg");
-    /* background-image: url("../img/paginainicial.gif"); */
-    -webkit-background-size: cover, fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Lato";
+  font-size: 22px;
+  background-image: url("../img/PPJ2.jpg");
+  /* background-image: url("../img/paginainicial.gif"); */
+  -webkit-background-size: cover, fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #separador2 {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    font-family: "Lato";
-    font-size: 22px;
-    background-image: url("../img/separador2.jpg");
-    /* background-image: url("../img/paginainicial.gif"); */
-    -webkit-background-size: cover, fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Lato";
+  font-size: 22px;
+  background-image: url("../img/separador2.jpg");
+  /* background-image: url("../img/paginainicial.gif"); */
+  -webkit-background-size: cover, fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #separador3 {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    font-family: "Lato";
-    font-size: 22px;
-    background-image: url("../img/separador3.jpg");
-    /* background-image: url("../img/paginainicial.gif"); */
-    -webkit-background-size: cover, fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Lato";
+  font-size: 22px;
+  background-image: url("../img/separador3.jpg");
+  /* background-image: url("../img/paginainicial.gif"); */
+  -webkit-background-size: cover, fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #separador4 {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    font-family: "Lato";
-    font-size: 22px;
-    background-image: url("../img/separador4.jpg");
-    /* background-image: url("../img/paginainicial.gif"); */
-    -webkit-background-size: cover, fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Lato";
+  font-size: 22px;
+  background-image: url("../img/separador4.jpg");
+  /* background-image: url("../img/paginainicial.gif"); */
+  -webkit-background-size: cover, fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #intro h1 {
-    text-shadow: black 0px 0px 10px;
-    font-size: 4rem;
+  text-shadow: black 0px 0px 10px;
+  font-size: 4rem;
 }
 
 .subheading {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h2,
 h3 {
-    font-family: "Oswald", sans-serif;
-    margin-bottom: 30px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
 }
 
 p {
-    font-family: "Lora", serif;
-    font-size: 1.2rem;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
 }
 
 .lead {
-    font-size: 1.6rem;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 30px;
+  font-size: 1.6rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 30px;
 }
 
 #text-intro {
-    padding-top: 22%;
-    text-align: center;
-    color: white;
+  padding-top: 22%;
+  text-align: center;
+  color: white;
 }
 
 .legenda {
-    text-align: center !important;
-    font-size: 1rem;
-    font-family: "Lato";
+  text-align: center !important;
+  font-size: 1rem;
+  font-family: "Lato";
 }
 
 .embed {
-    margin-top: 30px;
-    margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .chart-title {
-    text-align: center;
+  text-align: center;
 }
 
 .chart-source {
-    font-size: 0.7rem;
-    font-family: "Lato";
-    text-align: right;
+  font-size: 0.7rem;
+  font-family: "Lato";
+  text-align: right;
 }
 
 .autores_img {
-    width: 100%;
+  width: 100%;
 }
 
 #calculadora {
-    font-size: 22px;
-    font-family: "Lato";
-    padding: 40px;
-    background-color: #ffeedb;
+  font-size: 22px;
+  font-family: "Lato";
+  padding: 40px;
+  background-color: #ffeedb;
 }
 
 #explicação {
-    font-family: "Lato";
-    font-size: 1rem;
-    text-align: center;
+  font-family: "Lato";
+  font-size: 1rem;
+  text-align: center;
 }
 
 #imagemAna:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 #imagemCatia:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 #imagemPedro:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 #texto {
-    text-align: center;
+  text-align: center;
 }
 a {
-    color: #4acc82;
+  color: #4acc82;
 }
 a:hover {
-    color: #338e5b;
+  color: #338e5b;
+}
+
+@media only screen and (max-width: 600px) {
+  #intro h1 {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 }
