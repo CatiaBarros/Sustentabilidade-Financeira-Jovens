@@ -229,3 +229,38 @@ new Chart(document.getElementById("bar2-chart"), {
   },
 });
 
+new Chart(document.getElementById("bar3-chart"), {
+  type: "line",
+  data: {
+    labels: [
+      "Fevereiro", "Março", "Abril", "Maio",
+     
+    ],
+    datasets: [
+      {
+        data: [
+          263,
+          44712,
+          102195,
+          135080,
+        ],
+        label: "Desempregados",
+        borderColor: "#4ACC82",
+        fill: false,
+        backgroundColor: "#4ACC82",
+     },
+    ],
+  },
+  options: {
+    maintainAspectRatio: false,
+    title: {
+      display: false,
+      text: "Número de pessoas em lay-off",
+    },
+    legend: {
+      display: false,
+      position: "bottom",
+      labels: {},
+    },
+  },
+});
