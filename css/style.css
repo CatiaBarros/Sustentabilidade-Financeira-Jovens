@@ -24,6 +24,32 @@
     -o-background-size: cover;
     background-size: cover;
 }
+#separador3 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-family: "Lato";
+    font-size: 22px;
+    background-image: url("../img/separador3.jpg");
+    /* background-image: url("../img/paginainicial.gif"); */
+    -webkit-background-size: cover, fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#separador4 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-family: "Lato";
+    font-size: 22px;
+    background-image: url("../img/separador4.jpg");
+    /* background-image: url("../img/paginainicial.gif"); */
+    -webkit-background-size: cover, fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 #intro h1 {
     text-shadow: black 0px 0px 10px;
     font-size: 4rem;
