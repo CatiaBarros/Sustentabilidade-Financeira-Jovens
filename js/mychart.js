@@ -265,8 +265,3 @@ new Chart(document.getElementById("bar3-chart"), {
   },
 });
 
-window.scroll({
-  top: 7500,
-  left: 0,
-  behavior: "smooth",
-});
